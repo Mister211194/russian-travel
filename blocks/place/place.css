@@ -4,7 +4,7 @@
     display: grid;
     max-width: 984px;
 	grid-template-columns: 1fr;
-    gap: 32px
+    gap: 32px;
 }
 
 .place:first-of-type{
