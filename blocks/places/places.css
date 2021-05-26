@@ -1,0 +1,17 @@
+.places{
+    padding-top: 64px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .places {
+        padding-top: 88px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .places {
+        padding-top: 92px;
+    }
+}
