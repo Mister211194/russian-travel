@@ -12,6 +12,7 @@
     height: 62.5vw;
     text-decoration: none;
     position: relative;
+    margin: 0 auto;
 }
 
 .cover::before{
@@ -27,4 +28,10 @@
 
 .cover:hover::before{
     opacity: 0.8;
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        max-width: calc(100% - 96px);
+    }
 }
