@@ -14,6 +14,10 @@
     margin-right: 0;
 }
 
+.header__lang-link:hover{
+    text-decoration-line: underline;
+}
+
 @media screen and (min-width: 768px) {
     .header__lang-link {
         padding-bottom: 6px;

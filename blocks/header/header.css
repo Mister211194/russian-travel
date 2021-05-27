@@ -2,9 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding: 16px 16px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -20,5 +18,12 @@
         margin-top: 28px;
         margin-left: 48px;
         margin-right: 48px;    
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        max-width: 1184px;  
+        margin: 0 auto;  
     }
 }

@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 1280px) {
     .lead__subtitle {
-        margin-left: 172px;
-        margin-right: 172px;
+        margin: 32 auto 64;
+        max-width: 640 px;
     }
 }
