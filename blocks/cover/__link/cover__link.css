@@ -1,8 +1,18 @@
 .cover__link{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 62.5vw;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1150px) {
+    .cover__link {
+        max-width: 1184px;
+        min-height: 720px;
+    }
 }
