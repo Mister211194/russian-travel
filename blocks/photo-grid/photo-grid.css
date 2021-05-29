@@ -29,5 +29,6 @@
     .photo-grid {
         gap: 16px;
         max-width: 1184px;
+        width: 100%;
     }
 }
